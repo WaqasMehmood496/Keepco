@@ -501,7 +501,7 @@ extension ChatViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 //MARK:- ImagePicker
-extension ChatViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension ChatViewController {
     func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
         self.dismiss(animated: true, completion: { () -> Void in
             

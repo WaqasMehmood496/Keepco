@@ -158,7 +158,7 @@ class RegistrationViewController: UIViewController {
         
         // Specify the place data types to return.
         let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt(GMSPlaceField.name.rawValue) |
-            UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))!
+                                                    UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))
         autocompleteController.placeFields = fields
         
         // Specify a filter.
@@ -177,7 +177,7 @@ class RegistrationViewController: UIViewController {
         
         // Specify the place data types to return.
         let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt(GMSPlaceField.name.rawValue) |
-            UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))!
+                                                    UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))
         autocompleteController.placeFields = fields
         
         // Specify a filter.
@@ -435,7 +435,7 @@ extension RegistrationViewController: isDateSelected {
 
 //MARK:- IMAGEPICKER
 
-extension RegistrationViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension RegistrationViewController {
     
     func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
         self.dismiss(animated: true, completion: { () -> Void in

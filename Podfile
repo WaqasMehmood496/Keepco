@@ -22,6 +22,8 @@ target 'Keepco' do
      pod 'ImageViewer.swift/Fetcher', :path => '.'
      pod 'Google-Maps-iOS-Utils'
      pod "FlagPhoneNumber"
+     pod 'JGProgressHUD'
+     pod 'SwiftEntryKit'
 
 
   target 'KeepcoTests' do

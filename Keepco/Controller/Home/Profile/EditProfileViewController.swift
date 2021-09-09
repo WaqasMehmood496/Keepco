@@ -136,7 +136,7 @@ class EditProfileViewController: UIViewController {
         
         // Specify the place data types to return.
           let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt(GMSPlaceField.name.rawValue) |
-                 UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))!
+                                                        UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))
         autocompleteController.placeFields = fields
         
         // Specify a filter.
@@ -155,7 +155,7 @@ class EditProfileViewController: UIViewController {
         
         // Specify the place data types to return.
         let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt(GMSPlaceField.name.rawValue) |
-            UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))!
+                                                    UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))
         autocompleteController.placeFields = fields
         
         // Specify a filter.
@@ -544,7 +544,7 @@ extension EditProfileViewController: GMSAutocompleteViewControllerDelegate {
 
 //MARK:- IMAGEPICKER
 
-extension EditProfileViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension EditProfileViewController {
     
     func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
         self.dismiss(animated: true, completion: { () -> Void in

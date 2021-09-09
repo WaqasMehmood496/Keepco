@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7611132F26EA1A5F00FC6DBE /* WebServiceResponseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611130926EA1A5E00FC6DBE /* WebServiceResponseDelegate.swift */; };
+		7611133026EA1A5F00FC6DBE /* WebServiceDataParsingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611130A26EA1A5E00FC6DBE /* WebServiceDataParsingDelegate.swift */; };
+		7611133126EA1A5F00FC6DBE /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611130B26EA1A5E00FC6DBE /* DatabaseRepresentation.swift */; };
+		7611133226EA1A5F00FC6DBE /* HelpingDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611130C26EA1A5E00FC6DBE /* HelpingDelegates.swift */; };
+		7611133326EA1A5F00FC6DBE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611130E26EA1A5E00FC6DBE /* Constant.swift */; };
+		7611133426EA1A5F00FC6DBE /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611130F26EA1A5E00FC6DBE /* Globals.swift */; };
+		7611133526EA1A5F00FC6DBE /* urlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131126EA1A5E00FC6DBE /* urlHelper.swift */; };
+		7611133626EA1A5F00FC6DBE /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131226EA1A5E00FC6DBE /* NVActivityIndicatorPresenter.swift */; };
+		7611133726EA1A5F00FC6DBE /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131326EA1A5E00FC6DBE /* CommonHelper.swift */; };
+		7611133826EA1A5F00FC6DBE /* WebServicesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131426EA1A5E00FC6DBE /* WebServicesHelper.swift */; };
+		7611133926EA1A5F00FC6DBE /* AlamofireHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131526EA1A5E00FC6DBE /* AlamofireHelper.swift */; };
+		7611133A26EA1A5F00FC6DBE /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131626EA1A5E00FC6DBE /* LanguageHelper.swift */; };
+		7611133B26EA1A5F00FC6DBE /* PopupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131726EA1A5E00FC6DBE /* PopupHelper.swift */; };
+		7611133C26EA1A5F00FC6DBE /* DateTimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131826EA1A5E00FC6DBE /* DateTimeHelper.swift */; };
+		7611133D26EA1A5F00FC6DBE /* ValidationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131926EA1A5E00FC6DBE /* ValidationHelper.swift */; };
+		7611133E26EA1A5F00FC6DBE /* AsyncUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131A26EA1A5E00FC6DBE /* AsyncUtil.swift */; };
+		7611133F26EA1A5F00FC6DBE /* ViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131B26EA1A5E00FC6DBE /* ViewControllerHelper.swift */; };
+		7611134026EA1A5F00FC6DBE /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131C26EA1A5E00FC6DBE /* NVActivityIndicatorViewable.swift */; };
+		7611134126EA1A5F00FC6DBE /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131D26EA1A5E00FC6DBE /* DataBaseHelper.swift */; };
+		7611134226EA1A5F00FC6DBE /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611131E26EA1A5E00FC6DBE /* NetworkConnection.swift */; };
+		7611134326EA1A5F00FC6DBE /* BadgedBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132026EA1A5F00FC6DBE /* BadgedBarButtonItem.swift */; };
+		7611134426EA1A5F00FC6DBE /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132126EA1A5F00FC6DBE /* UIImage+Additions.swift */; };
+		7611134526EA1A5F00FC6DBE /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132226EA1A5F00FC6DBE /* UIView+Additions.swift */; };
+		7611134626EA1A5F00FC6DBE /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132326EA1A5F00FC6DBE /* UIViewController+Additions.swift */; };
+		7611134726EA1A5F00FC6DBE /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132426EA1A5F00FC6DBE /* NotificationExtension.swift */; };
+		7611134826EA1A5F00FC6DBE /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132526EA1A5F00FC6DBE /* UIButton+Additions.swift */; };
+		7611134926EA1A5F00FC6DBE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132626EA1A5F00FC6DBE /* CameraViewController.swift */; };
+		7611134A26EA1A5F00FC6DBE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132726EA1A5F00FC6DBE /* Extensions.swift */; };
+		7611134B26EA1A5F00FC6DBE /* UITexfield+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132826EA1A5F00FC6DBE /* UITexfield+Additions.swift */; };
+		7611134C26EA1A5F00FC6DBE /* UIPopUp+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132926EA1A5F00FC6DBE /* UIPopUp+Additions.swift */; };
+		7611134D26EA1A5F00FC6DBE /* UISearchBar+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132A26EA1A5F00FC6DBE /* UISearchBar+Additions.swift */; };
+		7611134E26EA1A5F00FC6DBE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132B26EA1A5F00FC6DBE /* Utility.swift */; };
+		7611134F26EA1A5F00FC6DBE /* NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132C26EA1A5F00FC6DBE /* NavigationBarExtension.swift */; };
+		7611135026EA1A5F00FC6DBE /* AppStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132D26EA1A5F00FC6DBE /* AppStoryBoard.swift */; };
+		7611135126EA1A5F00FC6DBE /* UITextView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611132E26EA1A5F00FC6DBE /* UITextView+Additions.swift */; };
+		7611139D26EA1B5B00FC6DBE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611139C26EA1B5B00FC6DBE /* LoginModel.swift */; };
 		B17871D23EDBB5C549CA2913 /* Pods_KeepcoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8805006DFC6B88B32A9CEFD9 /* Pods_KeepcoTests.framework */; };
 		B61A5FA4250144800008FF21 /* MainHe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61A5FA3250144800008FF21 /* MainHe.storyboard */; };
 		B62860E324588050004F85C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62860E224588050004F85C4 /* AppDelegate.swift */; };
@@ -121,6 +157,42 @@
 		54686247CF532E1FAB2DA5E2 /* Pods-Keepco-KeepcoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keepco-KeepcoUITests.release.xcconfig"; path = "Target Support Files/Pods-Keepco-KeepcoUITests/Pods-Keepco-KeepcoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5C8C4D321706B350012E7F26 /* Pods-Keepco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keepco.debug.xcconfig"; path = "Target Support Files/Pods-Keepco/Pods-Keepco.debug.xcconfig"; sourceTree = "<group>"; };
 		6F182CF28C983984653DB37E /* Pods-KeepcoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepcoTests.debug.xcconfig"; path = "Target Support Files/Pods-KeepcoTests/Pods-KeepcoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7611130926EA1A5E00FC6DBE /* WebServiceResponseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceResponseDelegate.swift; sourceTree = "<group>"; };
+		7611130A26EA1A5E00FC6DBE /* WebServiceDataParsingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceDataParsingDelegate.swift; sourceTree = "<group>"; };
+		7611130B26EA1A5E00FC6DBE /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		7611130C26EA1A5E00FC6DBE /* HelpingDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpingDelegates.swift; sourceTree = "<group>"; };
+		7611130E26EA1A5E00FC6DBE /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7611130F26EA1A5E00FC6DBE /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		7611131126EA1A5E00FC6DBE /* urlHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = urlHelper.swift; sourceTree = "<group>"; };
+		7611131226EA1A5E00FC6DBE /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		7611131326EA1A5E00FC6DBE /* CommonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHelper.swift; sourceTree = "<group>"; };
+		7611131426EA1A5E00FC6DBE /* WebServicesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesHelper.swift; sourceTree = "<group>"; };
+		7611131526EA1A5E00FC6DBE /* AlamofireHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireHelper.swift; sourceTree = "<group>"; };
+		7611131626EA1A5E00FC6DBE /* LanguageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		7611131726EA1A5E00FC6DBE /* PopupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupHelper.swift; sourceTree = "<group>"; };
+		7611131826EA1A5E00FC6DBE /* DateTimeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeHelper.swift; sourceTree = "<group>"; };
+		7611131926EA1A5E00FC6DBE /* ValidationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationHelper.swift; sourceTree = "<group>"; };
+		7611131A26EA1A5E00FC6DBE /* AsyncUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncUtil.swift; sourceTree = "<group>"; };
+		7611131B26EA1A5E00FC6DBE /* ViewControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHelper.swift; sourceTree = "<group>"; };
+		7611131C26EA1A5E00FC6DBE /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		7611131D26EA1A5E00FC6DBE /* DataBaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		7611131E26EA1A5E00FC6DBE /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		7611132026EA1A5F00FC6DBE /* BadgedBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgedBarButtonItem.swift; sourceTree = "<group>"; };
+		7611132126EA1A5F00FC6DBE /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
+		7611132226EA1A5F00FC6DBE /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		7611132326EA1A5F00FC6DBE /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		7611132426EA1A5F00FC6DBE /* NotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		7611132526EA1A5F00FC6DBE /* UIButton+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Additions.swift"; sourceTree = "<group>"; };
+		7611132626EA1A5F00FC6DBE /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7611132726EA1A5F00FC6DBE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7611132826EA1A5F00FC6DBE /* UITexfield+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITexfield+Additions.swift"; sourceTree = "<group>"; };
+		7611132926EA1A5F00FC6DBE /* UIPopUp+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPopUp+Additions.swift"; sourceTree = "<group>"; };
+		7611132A26EA1A5F00FC6DBE /* UISearchBar+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Additions.swift"; sourceTree = "<group>"; };
+		7611132B26EA1A5F00FC6DBE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7611132C26EA1A5F00FC6DBE /* NavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarExtension.swift; sourceTree = "<group>"; };
+		7611132D26EA1A5F00FC6DBE /* AppStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryBoard.swift; sourceTree = "<group>"; };
+		7611132E26EA1A5F00FC6DBE /* UITextView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Additions.swift"; sourceTree = "<group>"; };
+		7611139C26EA1B5B00FC6DBE /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		8447B1EF8F21A2892E4B637F /* Pods-Keepco-KeepcoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keepco-KeepcoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Keepco-KeepcoUITests/Pods-Keepco-KeepcoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8805006DFC6B88B32A9CEFD9 /* Pods_KeepcoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepcoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61A5FA3250144800008FF21 /* MainHe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainHe.storyboard; sourceTree = "<group>"; };
@@ -255,6 +327,77 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7611130826EA1A5E00FC6DBE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7611130926EA1A5E00FC6DBE /* WebServiceResponseDelegate.swift */,
+				7611130A26EA1A5E00FC6DBE /* WebServiceDataParsingDelegate.swift */,
+				7611130B26EA1A5E00FC6DBE /* DatabaseRepresentation.swift */,
+				7611130C26EA1A5E00FC6DBE /* HelpingDelegates.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7611130D26EA1A5E00FC6DBE /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7611130E26EA1A5E00FC6DBE /* Constant.swift */,
+				7611130F26EA1A5E00FC6DBE /* Globals.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		7611131026EA1A5E00FC6DBE /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7611131126EA1A5E00FC6DBE /* urlHelper.swift */,
+				7611131226EA1A5E00FC6DBE /* NVActivityIndicatorPresenter.swift */,
+				7611131326EA1A5E00FC6DBE /* CommonHelper.swift */,
+				7611131426EA1A5E00FC6DBE /* WebServicesHelper.swift */,
+				7611131526EA1A5E00FC6DBE /* AlamofireHelper.swift */,
+				7611131626EA1A5E00FC6DBE /* LanguageHelper.swift */,
+				7611131726EA1A5E00FC6DBE /* PopupHelper.swift */,
+				7611131826EA1A5E00FC6DBE /* DateTimeHelper.swift */,
+				7611131926EA1A5E00FC6DBE /* ValidationHelper.swift */,
+				7611131A26EA1A5E00FC6DBE /* AsyncUtil.swift */,
+				7611131B26EA1A5E00FC6DBE /* ViewControllerHelper.swift */,
+				7611131C26EA1A5E00FC6DBE /* NVActivityIndicatorViewable.swift */,
+				7611131D26EA1A5E00FC6DBE /* DataBaseHelper.swift */,
+				7611131E26EA1A5E00FC6DBE /* NetworkConnection.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		7611131F26EA1A5F00FC6DBE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7611132026EA1A5F00FC6DBE /* BadgedBarButtonItem.swift */,
+				7611132126EA1A5F00FC6DBE /* UIImage+Additions.swift */,
+				7611132226EA1A5F00FC6DBE /* UIView+Additions.swift */,
+				7611132326EA1A5F00FC6DBE /* UIViewController+Additions.swift */,
+				7611132426EA1A5F00FC6DBE /* NotificationExtension.swift */,
+				7611132526EA1A5F00FC6DBE /* UIButton+Additions.swift */,
+				7611132626EA1A5F00FC6DBE /* CameraViewController.swift */,
+				7611132726EA1A5F00FC6DBE /* Extensions.swift */,
+				7611132826EA1A5F00FC6DBE /* UITexfield+Additions.swift */,
+				7611132926EA1A5F00FC6DBE /* UIPopUp+Additions.swift */,
+				7611132A26EA1A5F00FC6DBE /* UISearchBar+Additions.swift */,
+				7611132B26EA1A5F00FC6DBE /* Utility.swift */,
+				7611132C26EA1A5F00FC6DBE /* NavigationBarExtension.swift */,
+				7611132D26EA1A5F00FC6DBE /* AppStoryBoard.swift */,
+				7611132E26EA1A5F00FC6DBE /* UITextView+Additions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7611139B26EA1B4700FC6DBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7611139C26EA1B5B00FC6DBE /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B62860D62458804F004F85C4 = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +424,10 @@
 		B62860E124588050004F85C4 /* Keepco */ = {
 			isa = PBXGroup;
 			children = (
+				7611130826EA1A5E00FC6DBE /* Delegates */,
+				7611131F26EA1A5F00FC6DBE /* Extension */,
+				7611130D26EA1A5E00FC6DBE /* Global */,
+				7611131026EA1A5E00FC6DBE /* HelperClasses */,
 				B66A2C802678C2180002131F /* Euclid */,
 				B647EEBC246D816E00AE6878 /* Session */,
 				B628611524589418004F85C4 /* Gils Sans MT */,
@@ -581,6 +728,7 @@
 		B6DF47B42481801500A69257 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7611139B26EA1B4700FC6DBE /* Model */,
 				B6DF47B52481803B00A69257 /* LoginViewController.swift */,
 			);
 			path = Login;
@@ -920,16 +1068,27 @@
 				B6B8C7D024E8717C00849663 /* InboxCell.swift in Sources */,
 				B6692B6D2459E67200ED7AC1 /* OccupationFlowLayout.swift in Sources */,
 				B62AA7A524E47528003C2A6E /* CommentsTableViewCell.swift in Sources */,
+				7611133F26EA1A5F00FC6DBE /* ViewControllerHelper.swift in Sources */,
+				7611133326EA1A5F00FC6DBE /* Constant.swift in Sources */,
 				B68FB87E24E5D585002D9820 /* MyFunboardLayout.swift in Sources */,
 				B6A2BDCC245C5B4600333301 /* MyOccupationViewController.swift in Sources */,
 				B6B8C7C024E854DE00849663 /* UserProfileViewController.swift in Sources */,
+				7611134026EA1A5F00FC6DBE /* NVActivityIndicatorViewable.swift in Sources */,
+				7611133D26EA1A5F00FC6DBE /* ValidationHelper.swift in Sources */,
 				B6B8C7C324E8593000849663 /* UserFunsViewController.swift in Sources */,
+				7611134E26EA1A5F00FC6DBE /* Utility.swift in Sources */,
+				7611134C26EA1A5F00FC6DBE /* UIPopUp+Additions.swift in Sources */,
+				7611133726EA1A5F00FC6DBE /* CommonHelper.swift in Sources */,
+				7611133026EA1A5F00FC6DBE /* WebServiceDataParsingDelegate.swift in Sources */,
 				B6692B692459E47C00ED7AC1 /* OccupationCell.swift in Sources */,
 				B6B8C7D424E9644600849663 /* IncomingTableViewCell.swift in Sources */,
 				B6692B86245B31FD00ED7AC1 /* AddressViewController.swift in Sources */,
 				B6692B73245A27C300ED7AC1 /* FunViewController.swift in Sources */,
+				7611134226EA1A5F00FC6DBE /* NetworkConnection.swift in Sources */,
 				B62860E724588050004F85C4 /* ViewController.swift in Sources */,
 				B6692B82245B1F1800ED7AC1 /* HomeViewController.swift in Sources */,
+				7611139D26EA1B5B00FC6DBE /* LoginModel.swift in Sources */,
+				7611134F26EA1A5F00FC6DBE /* NavigationBarExtension.swift in Sources */,
 				B6291A3924635DB4009E2D32 /* CountryCode.swift in Sources */,
 				B6A2BDD3245C75D300333301 /* ThumbTextSlder.swift in Sources */,
 				B65C4C3B25DCFECC00DC4860 /* ProfileVisitsViewController.swift in Sources */,
@@ -939,15 +1098,22 @@
 				B6692B88245B3DF900ED7AC1 /* CardView.swift in Sources */,
 				B62AA7A324E472AE003C2A6E /* CommentsViewController.swift in Sources */,
 				B6B8C7BE24E6F54800849663 /* AddOccupationsViewController.swift in Sources */,
+				7611133826EA1A5F00FC6DBE /* WebServicesHelper.swift in Sources */,
 				B67519EF24E5A62B004EE317 /* MyOccupationsCell.swift in Sources */,
 				B6A2BDD1245C741E00333301 /* HomeTableViewCell.swift in Sources */,
+				7611134126EA1A5F00FC6DBE /* DataBaseHelper.swift in Sources */,
 				B668DDBA245CAEEA00CD5D0E /* KMPlaceholderTextView.swift in Sources */,
 				B6291A3C24646298009E2D32 /* PrivacyPolicyViewController.swift in Sources */,
 				B655D36A245CC72100CDCC6E /* ManageFunboardViewController.swift in Sources */,
+				7611134826EA1A5F00FC6DBE /* UIButton+Additions.swift in Sources */,
 				B628611C24589EFC004F85C4 /* MainTableViewCell.swift in Sources */,
 				B6692B632459A43B00ED7AC1 /* SignupViewController.swift in Sources */,
 				B6CBB8AD2472B83F00F723CA /* SelectOccupationViewController.swift in Sources */,
+				7611134A26EA1A5F00FC6DBE /* Extensions.swift in Sources */,
+				7611134526EA1A5F00FC6DBE /* UIView+Additions.swift in Sources */,
+				7611133A26EA1A5F00FC6DBE /* LanguageHelper.swift in Sources */,
 				B6A2BDD6245C9E6100333301 /* PostsTableViewCell.swift in Sources */,
+				7611135126EA1A5F00FC6DBE /* UITextView+Additions.swift in Sources */,
 				B668DDB8245CACB600CD5D0E /* PostViewController.swift in Sources */,
 				B668DDBF245CB57900CD5D0E /* ForgotPasswordViewController.swift in Sources */,
 				B62AA79724E30D55003C2A6E /* Post.swift in Sources */,
@@ -956,29 +1122,47 @@
 				B6692B84245B31EF00ED7AC1 /* WorkViewController.swift in Sources */,
 				B6B8C7CA24E8666800849663 /* InboxViewController.swift in Sources */,
 				B6B8C7D624E969C600849663 /* OutgoingTableViewCell.swift in Sources */,
+				7611133426EA1A5F00FC6DBE /* Globals.swift in Sources */,
 				B6692B7B245AF87000ED7AC1 /* PhoneViewController.swift in Sources */,
 				B6B8C7C524E8594100849663 /* UserOccupationViewController.swift in Sources */,
 				B647EEC0246DB04D00AE6878 /* EditProfileViewController.swift in Sources */,
 				B62860E324588050004F85C4 /* AppDelegate.swift in Sources */,
+				7611133B26EA1A5F00FC6DBE /* PopupHelper.swift in Sources */,
 				B6477D4A2517A54F00FA956F /* ImagePicker.swift in Sources */,
 				B6692B712459F81D00ED7AC1 /* Occupation.swift in Sources */,
+				7611132F26EA1A5F00FC6DBE /* WebServiceResponseDelegate.swift in Sources */,
+				7611133226EA1A5F00FC6DBE /* HelpingDelegates.swift in Sources */,
+				7611134B26EA1A5F00FC6DBE /* UITexfield+Additions.swift in Sources */,
 				B655D36C245CCAA800CDCC6E /* ManageAdvertisingViewController.swift in Sources */,
 				B6B8C7CE24E870B500849663 /* Chat.swift in Sources */,
 				B62AA79524E170FE003C2A6E /* User.swift in Sources */,
+				7611135026EA1A5F00FC6DBE /* AppStoryBoard.swift in Sources */,
+				7611133C26EA1A5F00FC6DBE /* DateTimeHelper.swift in Sources */,
 				B6291A35246340D0009E2D32 /* SelectDateViewController.swift in Sources */,
+				7611134626EA1A5F00FC6DBE /* UIViewController+Additions.swift in Sources */,
 				B6692B6F2459F71B00ED7AC1 /* OccupationArrays.swift in Sources */,
 				B6692B77245A284C00ED7AC1 /* FunArrays.swift in Sources */,
+				7611133626EA1A5F00FC6DBE /* NVActivityIndicatorPresenter.swift in Sources */,
 				B6692B75245A283400ED7AC1 /* Fun.swift in Sources */,
+				7611133126EA1A5F00FC6DBE /* DatabaseRepresentation.swift in Sources */,
+				7611133E26EA1A5F00FC6DBE /* AsyncUtil.swift in Sources */,
 				B6DF47B32481720F00A69257 /* SelectFunViewController.swift in Sources */,
+				7611134926EA1A5F00FC6DBE /* CameraViewController.swift in Sources */,
+				7611133526EA1A5F00FC6DBE /* urlHelper.swift in Sources */,
 				B6692B79245AC99E00ED7AC1 /* KeyboardLayoutConstraint.swift in Sources */,
 				B68FB88024E5F258002D9820 /* AddFunViewController.swift in Sources */,
+				7611134426EA1A5F00FC6DBE /* UIImage+Additions.swift in Sources */,
 				B699554225B9D0CD00A7ABE5 /* UsersListViewController.swift in Sources */,
 				B668DDBD245CB15000CD5D0E /* ResetPasswordViewController.swift in Sources */,
+				7611134726EA1A5F00FC6DBE /* NotificationExtension.swift in Sources */,
+				7611133926EA1A5F00FC6DBE /* AlamofireHelper.swift in Sources */,
+				7611134326EA1A5F00FC6DBE /* BadgedBarButtonItem.swift in Sources */,
 				B6291A3F2464683D009E2D32 /* TermsViewController.swift in Sources */,
 				B6692B662459DBB400ED7AC1 /* RegistrationViewController.swift in Sources */,
 				B6692B6B2459E4F800ED7AC1 /* OccupationViewController.swift in Sources */,
 				B67519F124E5D1E5004EE317 /* FunboardCollectionViewCell.swift in Sources */,
 				B6B8C7D224E87BEB00849663 /* ChatViewController.swift in Sources */,
+				7611134D26EA1A5F00FC6DBE /* UISearchBar+Additions.swift in Sources */,
 				B6E9470A249685DA002B426C /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

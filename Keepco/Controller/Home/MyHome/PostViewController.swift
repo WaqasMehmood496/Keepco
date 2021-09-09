@@ -229,7 +229,7 @@ class PostViewController: UIViewController {
         
         // Specify the place data types to return.
         let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt(GMSPlaceField.name.rawValue) |
-            UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))!
+                                                    UInt(GMSPlaceField.placeID.rawValue) | UInt(GMSPlaceField.coordinate.rawValue))
         autocompleteController.placeFields = fields
         
         // Specify a filter.
@@ -426,7 +426,7 @@ extension PostViewController: GMSAutocompleteViewControllerDelegate {
 
 //MARK:- IMAGEPICKER
 
-extension PostViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension PostViewController {
     
     func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
         self.dismiss(animated: true, completion: { () -> Void in
