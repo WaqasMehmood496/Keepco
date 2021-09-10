@@ -54,7 +54,7 @@ class HomeViewController: UIViewController {
         tableView.estimatedRowHeight = 410
         
         
-        array.append(Post())
+        //array.append(Post())
         getDetails()
     }
     
@@ -68,14 +68,14 @@ class HomeViewController: UIViewController {
         HomeViewController.isActive = false
     }
     
-    func getDetails(){
-        let defaults = UserDefaults.standard
-        homeAddress = defaults.string(forKey: Config.HOME_ADDRESS) ?? ""
-        homeLat = defaults.string(forKey: Config.HOME_LAT) ?? "0"
-        homeLng = defaults.string(forKey: Config.HOME_LNG) ?? "0"
-        user_id = defaults.string(forKey: Config.USER_ID) ?? ""
-        user_image = defaults.string(forKey: Config.USER_IMAGE) ?? ""
-    }
+//    func getDetails(){
+//        let defaults = UserDefaults.standard
+//        homeAddress = defaults.string(forKey: Config.HOME_ADDRESS) ?? ""
+//        homeLat = defaults.string(forKey: Config.HOME_LAT) ?? "0"
+//        homeLng = defaults.string(forKey: Config.HOME_LNG) ?? "0"
+//        user_id = defaults.string(forKey: Config.USER_ID) ?? ""
+//        user_image = defaults.string(forKey: Config.USER_IMAGE) ?? ""
+//    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

@@ -14,7 +14,7 @@ import JGProgressHUD
 enum webserviceUrl: String {
     
     //Login Storyboard
-    case login = "/auth/login",
+    case login = "app_login",
     socialLogIn = "/auth/social"
     
     func url() -> String {

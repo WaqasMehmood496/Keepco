@@ -50,10 +50,9 @@ class CommonHelper
     class func getLocalizedImage(_ name: String?) -> UIImage? {
         return UIImage(named: "\(URL(fileURLWithPath: name ?? "").deletingPathExtension().absoluteString)_\(CommonHelper.getLocale() ?? "")")
     }
-    class func saveCachedUserData(_ userData:LoginModel){
+    class func saveCachedUserData(_ userData:UserModel){
         let userDefaults = UserDefaults.standard
         do {
-            
             try userDefaults.setObject(userData, forKey: Constant.login_key)
             userDefaults.synchronize()
             
@@ -61,11 +60,11 @@ class CommonHelper
             print(error.localizedDescription)
         }
     }
-    class func getCachedUserData() -> LoginModel? {
+    class func getCachedUserData() -> UserModel? {
         let userDefaults = UserDefaults.standard
         do {
-            let user = try userDefaults.getObject(forKey: Constant.login_key, castTo: LoginModel.self)
-            print(user.name ?? "0")
+            let user = try userDefaults.getObject(forKey: Constant.login_key, castTo: UserModel.self)
+            print(user.username ?? "0")
             return user
         } catch {
             print(error.localizedDescription)

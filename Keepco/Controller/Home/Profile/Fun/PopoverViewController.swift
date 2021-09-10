@@ -13,7 +13,6 @@ class PopoverViewController: UIViewController {
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
-    
     @IBOutlet weak var txt1: UITextField!
     @IBOutlet weak var txt2: UITextField!
     @IBOutlet weak var txt3: UITextField!

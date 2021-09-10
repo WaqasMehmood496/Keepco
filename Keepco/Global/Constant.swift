@@ -12,8 +12,8 @@ struct Constant {
     
     
     static let v2 = "v2"
-    static let version = "api/"
-    static let mainUrl = "http://sergxpress.com:3000/" + version + v2
+    static let version = "Api/"
+    static let mainUrl = "http://buzzwaretech.com/keepco/" + version
     
     //MARK: CACHE KEY'S
     static let login_key = "login_key"
@@ -33,6 +33,21 @@ struct Constant {
     //MARK: MODELS KEY'S
     static let id = "id"
     static let email = "email"
+    static let username = "username"
+    static let gender = "gender"
+    static let phone = "phone"
+    static let dob = "dob"
+    static let home_address = "home_address"
+    static let work_address = "work_address"
+    static let home_lat = "home_lat"
+    static let home_lng = "home_lng"
+    static let work_lat = "work_lat"
+    static let occupation = "occupation"
+    static let sub_occupation = "sub_occupation"
+    static let fun = "fun"
+    static let sub_fun = "sub_fun"
+    static let distance = "distance"
+    static let no_of_views = "no_of_views"
     static let full_name = "full_name"
     static let location = "location"
     static let mobilenumber = "mobilenumber"
